@@ -1,15 +1,15 @@
 # VNFaaS-Structure-Architecture-Description-and-Validation.
 This repository contains further material related to the VNFaaS paper.
 
-First the opensource codes (MJSIP and Little IMS) that have been used to analyze the functionnalities of IMS network functions.
+First the opensource codes (MJSIP http://www.mjsip.org/download/index.html and Little IMS https://github.com/ABoubendir/littleims) that have been used to analyze the functionnalities of IMS network functions.
 
-By analyzing these network functions, we have realized that identifying the network functions that are involved in the Authentification procedure  in order to extract can be the first step.
+By analyzing these network functions codes, we have realized that identifying the network functions that are involved in the Authentification and Authorization procedure in IMS in order to extract it from them can be the first step.
 
-(which is very coupled to authorization)
+We have then focused on P-CSCF, S-CSCF and HSS. Authentication and Authorization are tightly coupled in a way that we do not even distinguish two procedures. As explained in http://www.rfc-base.org/txt/rfc-3261.txt and http://www.rfc-base.org/rfc-4740.html. 
 
-with a focus on P-CSCF, S-CSCF and HSS, and to understand the Authentification in IMS and identify the network functions that are involved in the authentification procedure (which is very coupled to authorization) to allow to extract it and rethink Authentication and Authorization in IMS to be perfomed by dedicated service components modeled as-a-Service. 
+After this analysis, we have extracted all functionnalities related to Authentication and Authorization from these functions to rethink Authentication and Authorization in IMS to be perfomed by dedicated service components modeled as-a-Service based on the propsosed properties (stateless, cohesive, ...) 
 
-Of course
+Of course CSCF network functions are statefull, tightly coupled, 
 
 The verification and validation of the VNFaaS components architecture and structure is made through VerCors Platform. 
 
