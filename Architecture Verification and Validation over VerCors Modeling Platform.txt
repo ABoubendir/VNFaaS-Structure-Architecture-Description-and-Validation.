@@ -1,4 +1,6 @@
-VerCors allows to describe a software-component architecture specification with its interfaces and the behavior of the primitive components. The VCE module performs a first validation regarding the structural coherency of the model. 
+
+
+VerCors (https://github.com/Scale-VerCors/VCEv4) allows to describe a software-component architecture specification with its interfaces and the behavior of the primitive components. The VCE module performs a first validation regarding the structural coherency of the model. 
 
 This test allows to verify the validity of the model and guarantees that the code generation will terminate correctly and will not fail during deployment of the VNF component. 
 
