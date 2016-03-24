@@ -30,7 +30,7 @@ Then we include our business codes (the service logic) in the Content of each VN
 MJSIP contains a User Agent Client SIP application. 
 We use it to access the as-as-Service Authentication and Authorization network functions as shown in the call flow. 
 
-We implement the Authentication-as-a-Service and Authorization-as-a-Service components using ProaActive (https://github.com/scale-proactive/scale-proactive). 
+We implement the Authentication-as-a-Service and Authorization-as-a-Service components using ProaActive (https://github.com/scale-proactive/scale-proactive). The figure Implementation Environement.png shows the different platforms used and their roles.
 Using Proactive, we implement the VNF components in VMs from Grid5000 virtual infrastructure (https://www.grid5000.fr/mediawiki/index.php/Grid5000:Home) which represents the NFVI. It relies on Openstack as a Virtual Infrastructure Manager (VIM).  
 Proactive acts as a Virtual Network Function Manager as it ensures the life-cycle management of the VNF components.
 
